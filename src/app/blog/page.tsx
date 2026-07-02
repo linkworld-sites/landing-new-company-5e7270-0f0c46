@@ -4,7 +4,7 @@ import { Navigation } from "@/components/Navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata = {
-  title: "Blog — Fleximo Finance",
+  title: "Blog — Summit CFO Services",
   description: "Einblicke zu Finanzstrategie, CFO-Themen und KI im Finanzbereich.",
 };
 

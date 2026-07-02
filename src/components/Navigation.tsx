@@ -38,10 +38,10 @@ export function Navigation() {
         {/* Wordmark */}
         <Link href="/" className="flex items-center gap-2 group">
           <span className="text-xl font-space font-800 text-snow tracking-tight">
-            Fleximo
+            Summit CFO
           </span>
           <span className="text-xl font-space font-800 text-teal-gradient bg-teal-glow bg-clip-text text-transparent">
-            Finance
+            Services
           </span>
         </Link>
 

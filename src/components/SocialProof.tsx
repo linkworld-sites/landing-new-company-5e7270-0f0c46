@@ -5,7 +5,7 @@ import { motion, useReducedMotion } from "framer-motion";
 const testimonials = [
   {
     quote:
-      "Endlich wissen wir jeden Montag, wo wir finanziell stehen. Fleximo hat unsere Reporting-Zeit von 3 Tagen auf 2 Stunden reduziert.",
+      "Endlich wissen wir jeden Montag, wo wir finanziell stehen. Summit CFO hat unsere Reporting-Zeit von 3 Tagen auf 2 Stunden reduziert.",
     attribution: "Gründer, B2B SaaS · €4M ARR",
   },
   {
@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     quote:
-      "Kein Berater, der uns mit Buzzwords abspeist — Fleximo denkt wie ein Unternehmer und liefert Zahlen, die wir sofort verstehen.",
+      "Kein Berater, der uns mit Buzzwords abspeist — Summit CFO denkt wie ein Unternehmer und liefert Zahlen, die wir sofort verstehen.",
     attribution: "Geschäftsführerin, Retail-Gruppe · €7M Umsatz",
   },
 ];
@@ -24,7 +24,7 @@ const metrics = [
   { value: "+34%", label: "Cash Runway" },
   { value: "−60%", label: "Reporting-Zeit" },
   { value: "48h", label: "Onboarding" },
-  { value: "100%", label: "Kunden halten Fleximo" },
+  { value: "100%", label: "Kunden halten Summit CFO" },
 ];
 
 export function SocialProof() {

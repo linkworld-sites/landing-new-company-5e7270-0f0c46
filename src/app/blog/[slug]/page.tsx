@@ -17,7 +17,7 @@ export async function generateMetadata({
   const post = getPost(slug);
   if (!post) return {};
   return {
-    title: `${post.title} — Fleximo Finance Blog`,
+    title: `${post.title} — Summit CFO Services Blog`,
     description: post.description,
   };
 }
@@ -76,7 +76,7 @@ export default async function BlogPost({
               Bereit für den nächsten Schritt?
             </p>
             <h2 className="text-xl font-space font-700 text-snow mb-4">
-              Fleximo Finance — Ihr CFO. On Demand.
+              Summit CFO Services — Ihr CFO. On Demand.
             </h2>
             <Link
               href="/contact"

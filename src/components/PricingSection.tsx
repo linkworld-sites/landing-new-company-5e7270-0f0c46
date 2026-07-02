@@ -65,7 +65,7 @@ export function PricingSection() {
               <div className="px-6 py-4 border-l border-wire">
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-neon" />
-                  <span className="text-xs font-space font-700 text-neon uppercase tracking-wider">Fleximo</span>
+                  <span className="text-xs font-space font-700 text-neon uppercase tracking-wider">Summit CFO</span>
                 </div>
               </div>
               <div className="px-6 py-4 border-l border-wire">

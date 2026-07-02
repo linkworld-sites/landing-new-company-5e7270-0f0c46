@@ -64,7 +64,7 @@ Nicht jeder, der sich "CFO-Berater" nennt, ist einer. Hier sind drei Kriterien f
 
 ## Der erste Schritt
 
-Bei Fleximo Finance beginnen wir mit einem kostenlosen 30-minütigen Erstgespräch. In diesem Gespräch analysieren wir Ihre aktuelle Finanzsituation und zeigen Ihnen konkret, wo die größten Hebel liegen.
+Bei Summit CFO Services beginnen wir mit einem kostenlosen 30-minütigen Erstgespräch. In diesem Gespräch analysieren wir Ihre aktuelle Finanzsituation und zeigen Ihnen konkret, wo die größten Hebel liegen.
 
 Kein Pitch. Keine Standardpräsentation. Nur ehrliche Einschätzungen.
 

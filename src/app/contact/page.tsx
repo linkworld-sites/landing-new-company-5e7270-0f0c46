@@ -6,9 +6,9 @@ import { Navigation } from "@/components/Navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "Kontakt — Fleximo Finance",
+  title: "Kontakt — Summit CFO Services",
   description:
-    "Starten Sie mit einem kostenlosen Erstgespräch. Wir analysieren Ihre Finanzsituation und zeigen Ihnen, wie Fleximo Finance konkret helfen kann.",
+    "Starten Sie mit einem kostenlosen Erstgespräch. Wir analysieren Ihre Finanzsituation und zeigen Ihnen, wie Summit CFO Services konkret helfen kann.",
 };
 
 export default function ContactPage() {
@@ -29,7 +29,7 @@ export default function ContactPage() {
               </h1>
               <p className="text-mist font-inter text-lg leading-relaxed mb-8">
                 Erzählen Sie uns von Ihrer Situation. Wir zeigen Ihnen in 30
-                Minuten, wie Fleximo Finance Ihnen helfen kann — konkret,
+                Minuten, wie Summit CFO Services Ihnen helfen kann — konkret,
                 zahlenbasiert und ohne Consulting-Floskeln.
               </p>
 
@@ -64,7 +64,7 @@ export default function ContactPage() {
               <div className="rounded-xl overflow-hidden border border-wire opacity-70">
                 <Image
                   src="/images/detail.png"
-                  alt="Fleximo Finance Beratung"
+                  alt="Summit CFO Services Beratung"
                   width={600}
                   height={300}
                   className="w-full object-cover h-48"

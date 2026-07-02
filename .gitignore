@@ -10,3 +10,11 @@ output/
 *.log
 .mcp.json
 *.tsbuildinfo
+
+input/
+output/
+CLAUDE.md
+.mcp.json
+__design
+__files
+__mentioned

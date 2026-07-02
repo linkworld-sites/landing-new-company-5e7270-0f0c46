@@ -185,7 +185,7 @@ export function Hero() {
             >
               <Image
                 src="/images/hero.png"
-                alt="Fleximo Finance — Finanzielle Steuerung der Zukunft"
+                alt="Summit CFO Services — Finanzielle Steuerung der Zukunft"
                 width={680}
                 height={480}
                 className="w-full object-cover"

@@ -19,7 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Fleximo Finance — Fractional CFO On Demand",
+  title: "Summit CFO Services — Fractional CFO On Demand",
   description:
     "Fractional CFO firepower ohne Full-Time-Preis. Strategische Finanzführung, KI-gestützte Analysen und Cash-Flow-Klarheit — genau dann, wenn Ihr Unternehmen es braucht.",
   keywords: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "KI Buchhaltung",
   ],
   openGraph: {
-    title: "Fleximo Finance — Ihr CFO. On Demand. Powered by AI.",
+    title: "Summit CFO Services — Ihr CFO. On Demand. Powered by AI.",
     description:
       "CFO-Level-Finanzführung ohne Festanstellung. Flexibel, datengetrieben, sofort einsatzbereit.",
     type: "website",

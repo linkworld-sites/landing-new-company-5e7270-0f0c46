@@ -65,14 +65,14 @@ export function AudienceSelector() {
           transition={{ duration: 0.7, ease }}
         >
           <span className="text-xs font-mono text-neon uppercase tracking-widest block mb-4">
-            Für wen ist Fleximo?
+            Für wen ist Summit CFO Services?
           </span>
           <h2 className="text-display-sm font-space text-snow mb-4">
             Maßgeschneidert für{" "}
             <span className="text-teal-gradient">jede Wachstumsphase.</span>
           </h2>
           <p className="text-mist font-inter text-lg leading-relaxed">
-            Wählen Sie Ihre Situation — wir zeigen Ihnen, wie Fleximo konkret hilft.
+            Wählen Sie Ihre Situation — wir zeigen Ihnen, wie Summit CFO Services konkret hilft.
           </p>
         </motion.div>
 
@@ -160,7 +160,7 @@ export function AudienceSelector() {
                   {/* Services */}
                   <div>
                     <p className="text-xs font-mono text-mist/50 uppercase tracking-widest mb-4">
-                      Fleximo-Lösung
+                      Summit CFO-Lösung
                     </p>
                     <div className="flex flex-col gap-2.5">
                       {active.services.map((svc) => (

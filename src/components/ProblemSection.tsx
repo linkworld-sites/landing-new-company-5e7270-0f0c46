@@ -116,7 +116,7 @@ export function ProblemSection() {
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.7, delay: 0.3, ease }}
             >
-              Fleximo Finance bringt CFO-Level-Klarheit in Ihr Unternehmen —
+              Summit CFO Services bringt CFO-Level-Klarheit in Ihr Unternehmen —
               ohne die Fixkosten eines Vollzeit-Finanzchefs.
             </motion.p>
           </div>

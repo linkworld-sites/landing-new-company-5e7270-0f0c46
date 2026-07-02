@@ -36,8 +36,8 @@ export function SiteFooter() {
           {/* Brand */}
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-1.5">
-              <span className="text-lg font-space font-800 text-snow">Fleximo</span>
-              <span className="text-lg font-space font-800 text-teal-gradient bg-teal-glow bg-clip-text text-transparent">Finance</span>
+              <span className="text-lg font-space font-800 text-snow">Summit CFO</span>
+              <span className="text-lg font-space font-800 text-teal-gradient bg-teal-glow bg-clip-text text-transparent">Services</span>
             </Link>
             <p className="text-sm font-inter text-mist/70 leading-relaxed max-w-xs">
               Finanzen, die mit Ihrem Unternehmen wachsen. Fractional CFO. Full Impact.
@@ -48,7 +48,7 @@ export function SiteFooter() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-mist/50 hover:text-neon transition-colors duration-200 w-fit"
               whileHover={prefersReduced ? {} : { x: 3 }}
-              aria-label="Fleximo Finance on LinkedIn"
+              aria-label="Summit CFO Services on LinkedIn"
             >
               <LinkedInIcon />
               <span className="text-xs font-mono">LinkedIn</span>
@@ -95,7 +95,7 @@ export function SiteFooter() {
         {/* Bottom bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-xs font-mono text-mist/30">
-            © {new Date().getFullYear()} Fleximo Finance. Alle Rechte vorbehalten.
+            © {new Date().getFullYear()} Summit CFO Services. Alle Rechte vorbehalten.
           </p>
           <nav aria-label="Legal" className="flex flex-wrap gap-4">
             {legalLinks.map((link) => (

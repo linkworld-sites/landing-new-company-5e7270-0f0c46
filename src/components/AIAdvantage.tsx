@@ -7,7 +7,7 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 const panels = [
   {
     step: "01",
-    badge: "Vor Fleximo",
+    badge: "Vor Summit CFO",
     title: "Manuelles Chaos",
     desc: "Spreadsheets, die niemand versteht. Reporting, das Tage dauert. Entscheidungen ohne Datenbasis.",
     visual: "chaos",
@@ -17,7 +17,7 @@ const panels = [
     step: "02",
     badge: "KI-Mapping",
     title: "KI-gestütztes Finanzmodell",
-    desc: "Fleximo verbindet Ihre ERP-Daten, modelliert Szenarien automatisch und liefert einen lebenden Finanzplan.",
+    desc: "Summit CFO verbindet Ihre ERP-Daten, modelliert Szenarien automatisch und liefert einen lebenden Finanzplan.",
     visual: "model",
     accent: "#1B4FFF",
   },
@@ -25,7 +25,7 @@ const panels = [
     step: "03",
     badge: "Ihr Command Center",
     title: "Echtzeit CFO Dashboard",
-    desc: "Sie sehen Cash Flow, EBITDA und KPIs in Echtzeit — und Ihr Fleximo CFO ist immer einen Anruf entfernt.",
+    desc: "Sie sehen Cash Flow, EBITDA und KPIs in Echtzeit — und Ihr Summit CFO ist immer einen Anruf entfernt.",
     visual: "dashboard",
     accent: "#00E5C8",
   },
