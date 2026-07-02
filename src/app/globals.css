@@ -113,6 +113,68 @@ html.lenis body {
 .post-body strong { font-weight: 600; color: #F4F6FF; }
 .post-body code { font-family: 'JetBrains Mono', monospace; background: rgba(27,79,255,0.1); color: #00E5C8; padding: 0.15em 0.4em; border-radius: 4px; font-size: 0.9em; }
 
+/* ConversionForm brand overrides */
+.contact-form-wrap form {
+  display: grid;
+  gap: 1.25rem;
+}
+.contact-form-wrap label {
+  display: grid;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: #A8B5C8;
+}
+.contact-form-wrap label span {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: var(--font-inter), sans-serif;
+  opacity: 0.6;
+}
+.contact-form-wrap input,
+.contact-form-wrap textarea {
+  background: rgba(10, 15, 44, 0.5) !important;
+  border: 1px solid #1E2A3A !important;
+  border-radius: 8px !important;
+  padding: 0.875rem 1rem !important;
+  color: #F4F6FF !important;
+  font-family: var(--font-inter), sans-serif !important;
+  font-size: 0.9rem !important;
+  outline: none !important;
+  transition: border-color 0.2s ease !important;
+}
+.contact-form-wrap input:focus,
+.contact-form-wrap textarea:focus {
+  border-color: #00E5C8 !important;
+}
+.contact-form-wrap button[type="submit"] {
+  background: transparent !important;
+  border: 1px solid #00E5C8 !important;
+  color: #00E5C8 !important;
+  padding: 0.75rem 1.75rem !important;
+  font-family: var(--font-space), sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+.contact-form-wrap button[type="submit"]:hover {
+  background: #00E5C8 !important;
+  color: #0A0F2C !important;
+}
+.contact-form-wrap div[class*="rounded-lg"] {
+  background: rgba(0, 229, 200, 0.05) !important;
+  border: 1px solid rgba(0, 229, 200, 0.3) !important;
+  border-radius: 12px !important;
+  padding: 2rem !important;
+  text-align: center !important;
+  color: #F4F6FF !important;
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #0A0F2C; }
