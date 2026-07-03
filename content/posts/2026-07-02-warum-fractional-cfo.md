@@ -2,14 +2,14 @@
 title: "Warum Ihr Unternehmen jetzt einen Fractional CFO braucht"
 date: "2026-07-02"
 slug: "warum-fractional-cfo"
-description: "68 % der KMU haben keinen Echtzeit-Überblick über ihre Liquidität. Hier erfahren Sie, warum ein Fractional CFO die smarteste Lösung für wachsende Unternehmen ist — und worauf Sie bei der Wahl achten sollten."
+description: "40 % der KMU haben keinen Echtzeit-Überblick über ihre Liquidität. Hier erfahren Sie, warum ein Fractional CFO die smarteste Lösung für wachsende Unternehmen ist — und worauf Sie bei der Wahl achten sollten."
 ---
 
 ## Die Finanzlücke im Mittelstand
 
 Es ist eines der häufigsten Paradoxe im Unternehmertum: Ein Gründer oder CEO führt ein Unternehmen mit mehreren Millionen Euro Umsatz — und weiß trotzdem nicht, wie viel Geld in drei Monaten auf dem Konto sein wird.
 
-Laut aktuellen Studien haben **68 % der kleinen und mittleren Unternehmen** keinen Echtzeit-Überblick über ihre Liquidität. Das bedeutet: Mehr als zwei Drittel aller Entscheidungen werden ohne solide Datenbasis getroffen.
+Laut aktuellen Studien haben **40 % der kleinen und mittleren Unternehmen** keinen Echtzeit-Überblick über ihre Liquidität. Das bedeutet: Ein erheblicher Teil aller Entscheidungen wird ohne solide Datenbasis getroffen.
 
 Das ist kein Versagen — es ist eine strukturelle Lücke. Bookkeeper und Steuerberater liefern vergangenheitsbezogene Zahlen. Ein Vollzeit-CFO kostet ab €120.000 im Jahr. Und dazwischen? Bis vor kurzem: nichts.
 
