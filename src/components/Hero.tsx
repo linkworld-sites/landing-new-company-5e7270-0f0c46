@@ -184,7 +184,7 @@ export function Hero() {
               style={{ boxShadow: "0 40px 100px rgba(0,0,0,0.6)" }}
             >
               <Image
-                src="/images/hero.png"
+                src="/images/products/product-0.jpg"
                 alt="Summit CFO Services — Finanzielle Steuerung der Zukunft"
                 width={680}
                 height={480}

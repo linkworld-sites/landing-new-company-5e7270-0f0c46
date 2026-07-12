@@ -204,7 +204,7 @@ export function AIAdvantage() {
             {/* Image below the active panel */}
             <div className="mt-6 rounded-xl overflow-hidden border border-wire/50 opacity-60">
               <Image
-                src="/images/material.png"
+                src="/images/products/product-0.jpg"
                 alt="Finanzanalyse mit KI"
                 width={600}
                 height={300}

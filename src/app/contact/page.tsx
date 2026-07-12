@@ -63,7 +63,7 @@ export default function ContactPage() {
 
               <div className="rounded-xl overflow-hidden border border-wire opacity-70">
                 <Image
-                  src="/images/detail.png"
+                  src="/images/products/product-0.jpg"
                   alt="Summit CFO Services Beratung"
                   width={600}
                   height={300}

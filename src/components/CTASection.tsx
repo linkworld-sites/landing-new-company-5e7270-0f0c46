@@ -44,7 +44,7 @@ export function CTASection() {
       {/* Background image with overlay */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <Image
-          src="/images/process.png"
+          src="/images/products/product-0.jpg"
           alt=""
           fill
           className="object-cover opacity-10"
