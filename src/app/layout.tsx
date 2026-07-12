@@ -3,6 +3,7 @@ import { Space_Grotesk, Inter } from "next/font/google";
 import { SmoothScroll } from "@/components/SmoothScroll";
 import { FunnelTracker } from "@/components/FunnelTracker";
 import { CookieConsent } from "@/components/CookieConsent";
+import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -19,9 +20,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Summit CFO Services — Fractional CFO On Demand",
   description:
     "Fractional CFO firepower ohne Full-Time-Preis. Strategische Finanzführung, KI-gestützte Analysen und Cash-Flow-Klarheit — genau dann, wenn Ihr Unternehmen es braucht.",
+  alternates: {
+    canonical: "/",
+  },
   keywords: [
     "Fractional CFO",
     "Finanzberatung",
