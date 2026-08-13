@@ -45,7 +45,7 @@ export function CTASection() {
       <div className="absolute inset-0 pointer-events-none" aria-hidden="true">
         <Image
           src="/images/products/product-0.jpg"
-          alt=""
+          alt="Live CFO Dashboard von Summit CFO Services mit Cashflow-Prognosen und Finanzkennzahlen"
           fill
           className="object-cover opacity-10"
         />
