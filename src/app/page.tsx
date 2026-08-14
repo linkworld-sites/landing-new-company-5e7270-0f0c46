@@ -7,9 +7,11 @@ import { HowItWorks } from "@/components/HowItWorks";
 import { SocialProof } from "@/components/SocialProof";
 import { AudienceSelector } from "@/components/AudienceSelector";
 import { PricingSection } from "@/components/PricingSection";
+import { FAQSection } from "@/components/FAQSection";
 import { CTASection } from "@/components/CTASection";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SITE_URL } from "@/lib/site";
+import { faqJsonLd } from "@/lib/faq-data";
 
 const jsonLd = {
   "@context": "https://schema.org",
@@ -29,6 +31,11 @@ export default function Home() {
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <Navigation />
       <main>
         <Hero />
@@ -39,6 +46,7 @@ export default function Home() {
         <SocialProof />
         <AudienceSelector />
         <PricingSection />
+        <FAQSection />
         <CTASection />
       </main>
       <SiteFooter />
