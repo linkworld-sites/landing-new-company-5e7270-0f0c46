@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getPosts } from "@/lib/posts";
 import { Navigation } from "@/components/Navigation";
@@ -44,8 +45,25 @@ export default function BlogIndex() {
                 <li key={p.slug}>
                   <Link
                     href={`/blog/${p.slug}`}
-                    className="group block bg-card border border-wire rounded-2xl p-7 hover:border-neon/30 transition-all duration-300 hover:-translate-y-1"
+                    className="group block bg-card border border-wire rounded-2xl overflow-hidden hover:border-neon/30 transition-all duration-300 hover:-translate-y-1"
                   >
+                    <div className="relative aspect-[16/9] w-full overflow-hidden bg-void">
+                      {p.image ? (
+                        <Image
+                          src={p.image}
+                          alt={p.title}
+                          fill
+                          className="object-cover"
+                        />
+                      ) : (
+                        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-card via-void to-card">
+                          <span className="text-xs font-mono text-neon/40 uppercase tracking-widest">
+                            Summit CFO Services
+                          </span>
+                        </div>
+                      )}
+                    </div>
+                    <div className="p-7">
                     {p.date && (
                       <p className="text-xs font-mono text-mist/50 uppercase tracking-widest mb-3">
                         {p.date}
@@ -62,6 +80,7 @@ export default function BlogIndex() {
                     <span className="text-xs font-mono text-neon/60 group-hover:text-neon transition-colors duration-200">
                       Weiterlesen →
                     </span>
+                    </div>
                   </Link>
                 </li>
               ))}

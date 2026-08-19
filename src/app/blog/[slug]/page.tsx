@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPost, getPosts } from "@/lib/posts";
@@ -43,6 +44,13 @@ export default async function BlogPost({
           >
             ← Alle Beiträge
           </Link>
+
+          {/* Cover */}
+          {post.image && (
+            <div className="relative aspect-[16/9] w-full overflow-hidden rounded-2xl mb-12 bg-void">
+              <Image src={post.image} alt={post.title} fill className="object-cover" priority />
+            </div>
+          )}
 
           {/* Post header */}
           <header className="mb-12">

@@ -4,15 +4,16 @@ import { marked } from "marked";
 
 /**
  * Data-driven blog: every markdown file in content/posts/ is a post.
- * Publishing = adding ONE .md file (frontmatter: title, date, description) —
- * it is auto-indexed on /blog and auto-linked. A malformed file is skipped,
- * never crashes the site.
+ * Publishing = adding ONE .md file (frontmatter: title, date, description,
+ * optional image) — it is auto-indexed on /blog and auto-linked. A malformed
+ * file is skipped, never crashes the site.
  */
 export interface Post {
   slug: string;
   title: string;
   date: string;
   description: string;
+  image?: string;
   html: string;
 }
 
@@ -56,6 +57,7 @@ export function getPosts(): Post[] {
         title: meta.title || slug,
         date: meta.date || "",
         description: meta.description || "",
+        image: meta.image || undefined,
         html: marked.parse(body, { async: false }) as string,
       });
     } catch {
