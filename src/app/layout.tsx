@@ -4,6 +4,7 @@ import { SmoothScroll } from "@/components/SmoothScroll";
 import { FunnelTracker } from "@/components/FunnelTracker";
 import { CookieConsent } from "@/components/CookieConsent";
 import { SITE_URL } from "@/lib/site";
+import { FUNNEL_META_PIXEL } from "@/funnel-config";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -57,6 +58,34 @@ export default function RootLayout({
       className={`${spaceGrotesk.variable} ${inter.variable}`}
     >
       <body>
+        {FUNNEL_META_PIXEL && (
+          <>
+            <script
+              id="meta-pixel-base"
+              dangerouslySetInnerHTML={{
+                __html: `!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '${FUNNEL_META_PIXEL}');
+fbq('track', 'PageView');`,
+              }}
+            />
+            <noscript>
+              <img
+                height="1"
+                width="1"
+                alt=""
+                style={{ display: "none" }}
+                src={`https://www.facebook.com/tr?id=${FUNNEL_META_PIXEL}&ev=PageView&noscript=1`}
+              />
+            </noscript>
+          </>
+        )}
         <FunnelTracker />
         <SmoothScroll>{children}</SmoothScroll>
         <CookieConsent />
